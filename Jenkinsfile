@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('#1.Checkout'){
       steps{
-        git url:'https://github.com/masandsamarthsies/samarth1234/new/main',branch:'main'
+        git url:'https://github.com/masandsamarthsies/samarth1234',branch:'main'
       }
     }
     stage('#2. Build the Image'){
